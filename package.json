@@ -1,0 +1,28 @@
+{
+  "name": "ssl-certs",
+  "version": "1.0.0",
+  "description": "load ssl certs for https",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test",
+    "pub": "npm publish --registry http://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saas-plat/ssl-certs.git"
+  },
+  "keywords": [
+    "https",
+    "sll",
+    "ca"
+  ],
+  "author": "saas-plat.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saas-plat/ssl-certs/issues"
+  },
+  "homepage": "https://github.com/saas-plat/ssl-certs#readme",
+  "dependencies": {
+    "glob": "^7.1.2"
+  }
+}
